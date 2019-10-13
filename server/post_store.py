@@ -1,6 +1,6 @@
 import csv
 import os
-from server.post import Post
+from post import Post
 
 FILE_PATH = os.path.dirname(os.path.abspath(__file__)) + "/posts.txt"
 

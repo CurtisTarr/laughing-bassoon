@@ -1,6 +1,6 @@
 from typing import List
-from server.post_store import *
-from server.post import Post
+from post_store import *
+from post import Post
 
 
 class PostCache:

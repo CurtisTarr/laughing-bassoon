@@ -1,8 +1,8 @@
 from flask import Flask, abort, jsonify, request, Response
 from flask_cors import CORS
-from server.post_cache import PostCache
-from server.post_store import add_post
-from server.post import Post
+from post_cache import PostCache
+from post_store import add_post
+from post import Post
 
 app = Flask(__name__)
 CORS(app)
