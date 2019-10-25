@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 function App() {
   return (
-    <body>
+    <div>
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand>Laughing Bassoon</Navbar.Brand>
       </Navbar>
@@ -20,7 +20,7 @@ function App() {
           <Posts />
         </Jumbotron>
       </Container>
-    </body>
+    </div>
   );
 }
 

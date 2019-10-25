@@ -58,7 +58,7 @@ class Input extends Component {
                         <Form.Label>Message</Form.Label>
                         <Form.Control as="textarea" rows="3" value={this.state.message} onChange={this.updateMessage} />
                     </Form.Group>
-                    <div class="d-flex justify-content-end">
+                    <div className="d-flex justify-content-end">
                         <Button variant="primary" type="submit">Submit</Button>
                     </div>
                 </Form>

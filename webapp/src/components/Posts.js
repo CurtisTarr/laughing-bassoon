@@ -38,16 +38,16 @@ class Posts extends Component {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
             return (
-                <div class="d-flex justify-content-center">
+                <div className="d-flex justify-content-center">
                     <Spinner animation="border" role="status">
-                        <span class="sr-only">Loading...</span>
+                        <span className="sr-only">Loading...</span>
                     </Spinner>
                 </div>
             );
         } else {
             return (
                 <div>
-                    <ul class="col justify-content-center">
+                    <ul className="col justify-content-center">
                         {posts.map(post => (
                             <div style={{ padding: "10px" }}>
                                 <Card>
